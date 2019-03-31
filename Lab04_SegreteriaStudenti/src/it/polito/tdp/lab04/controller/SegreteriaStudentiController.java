@@ -18,6 +18,7 @@ import javafx.scene.control.TextField;
 public class SegreteriaStudentiController {
 
 	List<Corso> lista;
+	
     @FXML
     private ResourceBundle resources;
 

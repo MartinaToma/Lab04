@@ -10,6 +10,7 @@ public class ConnectDB {
 	static private Connection connection = null;
 
 	public static Connection getConnection() {
+		
 
 		try {
 			if (connection == null||connection.isClosed()) {
